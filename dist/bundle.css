@@ -313,6 +313,10 @@ p {
   #style::-webkit-scrollbar {
    display: none;
 } 
+#style {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
 
     @media screen and (max-width: 940px) {
       .home__left {

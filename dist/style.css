@@ -1,0 +1,479 @@
+.SidebarPane {
+
+    position: fixed;
+    width: 24em;
+    z-index: 1;
+   
+
+}
+.FullSidebarColumn {
+    background: 
+    rgb(17, 17, 17) none repeat scroll 0% 0%;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+
+}
+.ktNaon {
+
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+.ktNaon > .CollapsedSidebarColumn {
+
+    -moz-box-align: center;
+    align-items: center;
+    bottom: 0px;
+    display: none;
+    flex-direction: column;
+    left: 0px;
+    top: 0px;
+
+}
+.ktNaon > .CollapsedSidebarColumn > .LogoRow {
+
+    padding-left: 25px;
+    padding-top: 15px;
+    flex: 1 1 0%;
+
+}
+.ktNaon button {
+
+    background: 
+
+    rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+    border: medium none;
+    outline: currentcolor none medium;
+
+}
+button, [type="button"], [type="reset"], [type="submit"] {
+
+    -webkit-appearance: button;
+
+}
+
+.ktNaon > .CollapsedSidebarColumn > .LogoRow img {
+
+    max-width: 44px;
+    max-height: 44px;
+
+}
+img {
+
+    border-style: none;
+
+}
+.ktNaon > .CollapsedSidebarColumn > .ExpandButton {
+
+    cursor: pointer;
+    padding: 0px 0px 15px;
+
+}
+.ktNaon button {
+
+    background: 
+
+    rgba(0, 0, 0, 0) none repeat scroll 0% 0%;
+    border: medium none;
+    outline: currentcolor none medium;
+    color:wheat;
+    /* margin-left: 128px; */
+    background-color:black;
+
+}
+.ktNaon > .CollapsedSidebarColumn > .ExpandButton {
+
+    cursor: pointer;
+
+}
+.ktNaon  .FullSidebarColumn {
+
+    background: 
+
+    rgb(17, 17, 17) none repeat scroll 0% 0%;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    position: relative;
+
+}
+.ktNaon > .FullSidebarColumn > .LogoRow {
+
+    align-self: center;
+    margin-bottom: auto;
+
+}
+.ktNaon > .FullSidebarColumn > .LogoRow > a > img {
+
+    height: 14em;
+    width: 15em;
+
+}
+.FullSidebarColumn > .MenuRow {
+
+    display: flex;
+    flex-direction: column;
+    -moz-box-pack: end;
+    justify-content: flex-end;
+    padding: 1.5em 0px 0px 0.5em;
+
+}
+.kEQwEa {
+
+    background: 
+
+    rgb(17, 17, 17) none repeat scroll 0% 0%;
+    max-width: 1800px;
+    margin: 0px auto;
+
+}
+.kEQwEa > .SidebarPane {
+    width: 13em;
+    z-index: 1;
+    position: fixed;
+}
+ .FullSidebarColumn > .MenuRow .MenuSection {
+
+    padding: 1em;
+
+}
+.FullSidebarColumn > .LogoRow > a > img {
+
+    height: 9em;
+    width: 9em;
+
+}
+.khtOQO {
+
+    /* display: block; */
+    margin: 0.3em 0px;
+
+}
+.khtOQO a {
+
+    text-decoration: none;
+
+}
+.khtOQO .Link {
+
+    color: 
+
+    white;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.khtOQO .Link > .Accessory {
+
+    color: 
+
+    rgb(0, 0, 255);
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.gvNkna {
+
+    display: block;
+    margin: 0.3em 0px;
+
+}
+.gvNkna a {
+
+    text-decoration: none;
+
+}
+.gvNkna .Link {
+
+    color: 
+
+    white;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.gvNkna .Link > .Accessory {
+
+    color: 
+
+    rgb(255, 51, 102);
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.fKwNhZ {
+
+    display: block;
+    margin: 0.3em 0px;
+
+}
+.fKwNhZ a {
+
+    text-decoration: none;
+
+}
+.fKwNhZ .Link {
+
+    color: 
+
+    white;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.fKwNhZ .Link > .Accessory {
+
+    color: 
+
+    rgb(255, 153, 0);
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.FullSidebarColumn > .MenuRow .MenuSection {
+
+    padding: 1em;
+
+}
+.jACEVX {
+
+    display: block;
+    margin: 0.3em 0px;
+
+}
+.jACEVX a {
+
+    text-decoration: none;
+
+}
+.jACEVX .Link {
+
+    color: 
+
+    white;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.jACEVX .Link > .Accessory {
+
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.jACEVX {
+
+    display: block;
+    margin: 0.3em 0px;
+
+}
+.jACEVX a {
+
+    text-decoration: none;
+
+}
+.jACEVX .Link {
+
+    color: 
+
+    white;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.jACEVX .Link > .Accessory {
+
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.jACEVX {
+
+    display: block;
+    margin: 0.3em 0px;
+
+}
+.jACEVX a {
+
+    text-decoration: none;
+
+}
+.jACEVX .Link {
+
+    color: 
+
+    white;
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.jACEVX .Link > .Accessory {
+
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.FullSidebarColumn > .MenuRow .MenuSection {
+
+    padding: 1em;
+
+}
+.fnPoBM {
+
+    display: block;
+    margin: 0.3em 0px;
+
+}
+.fnPoBM a {
+
+    text-decoration: none;
+
+}
+.fnPoBM .Link {
+
+    color: 
+
+    rgb(153, 153, 153);
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.fnPoBM .Link > .Accessory {
+
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.fnPoBM {
+
+    display: block;
+    margin: 0.3em 0px;
+
+}
+.fnPoBM a {
+
+    text-decoration: none;
+
+}
+.fnPoBM .Link {
+
+    color: 
+
+    rgb(153, 153, 153);
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.fnPoBM .Link > .Accessory {
+
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.fnPoBM {
+
+    display: block;
+    margin: 0.3em 0px;
+
+}
+.fnPoBM a {
+
+    text-decoration: none;
+
+}
+.fnPoBM .Link {
+
+    color: 
+
+    rgb(153, 153, 153);
+    font-family: Helvetica Neue, Helvetica, sans-serif;
+    font-size: 0.85em;
+    font-weight: bold;
+    transition: color 200ms ease-out 0s;
+
+}
+.fnPoBM .Link > .Accessory {
+
+    display: inline-block;
+    margin-right: 0.3em;
+    transition: color 200ms ease-in-out 0s;
+
+}
+.ktNaon > .FullSidebarColumn > .CollapseIcon {
+
+    bottom: 15px;
+    color: 
+
+    rgb(150, 150, 150);
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+
+}
+.ktNaon > .FullSidebarColumn > .CollapseIcon {
+
+    color: 
+
+    rgb(150, 150, 150);
+    cursor: pointer;
+
+}
+#CollapsedSidebarColumn {
+    display: none;
+  }
+  .CollapsedSidebarColumn > .LogoRow img {
+    max-width: 35px;
+}
+.FullSidebarColumn > .MenuRow .MenuSection {
+
+    padding: 1em;  
+    font-size: 1.5rem;
+}
+.CollapsedSidebarColumn {
+
+    -moz-box-align: center;
+    align-items: center;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    top: 0px;
+
+}
+.FullSidebarColumn > .CollapseIcon {
+
+    color: 
+
+    rgb(150, 150, 150);
+    cursor: pointer;
+
+}

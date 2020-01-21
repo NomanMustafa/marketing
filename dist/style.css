@@ -86,14 +86,11 @@ img {
     color:wheat;
     /* margin-left: 128px; */
     background-color:#111;
-    top: 55rem;
-    position: fixed;
-    width: 100px;
-    left: 138px;
+   
 
 }
 
-}
+
 .ktNaon > .CollapsedSidebarColumn > .ExpandButton {
 
     cursor: pointer;
@@ -489,8 +486,12 @@ img {
     color:
     rgb(150, 150, 150);
     cursor: pointer;
-    position: absolute;
+    
     right: 10px;
+    top: 60rem;
+    position: fixed;
+    width: 100px;
+    left: 138px;
 }
 .myClass {
     border-bottom: 1px solid

@@ -13,10 +13,14 @@ function switchVisible() {
             $('.home__right').animate({
                 marginLeft: '25em'
             },500)
+            $('#foo').removeClass('myClass')
         }
         else {
+            
+            $('#foo').addClass('myClass')
+            
             $('.home__right').animate({
-                marginLeft: '8em'
+                marginLeft: '10em'
             },500)
         
             document.getElementById('FullSidebarColumn').style.display = 'none';

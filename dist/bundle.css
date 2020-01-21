@@ -531,7 +531,9 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2.2rem;
-  margin-top: 7rem; }
+  margin-top: 7rem;
+  margin-left: -21px;
+ }
   @media screen and (max-width: 1240px) {
     .outerCard {
       grid-template-columns: repeat(2, 1fr); } }

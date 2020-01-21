@@ -3,6 +3,8 @@
     position: fixed;
     width: 24em;
     z-index: 1;
+    overflow-x: scroll;
+    height: 100%;
    
 
 }
@@ -83,7 +85,8 @@ img {
     outline: currentcolor none medium;
     color:wheat;
     /* margin-left: 128px; */
-    background-color:black;
+    background-color:#111;
+    top: 55rem;
 
 }
 .ktNaon > .CollapsedSidebarColumn > .ExpandButton {
@@ -477,3 +480,21 @@ img {
     cursor: pointer;
 
 }
+.CollapseIcon {
+    color:
+    rgb(150, 150, 150);
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+}
+.myClass {
+    border-bottom: 1px solid
+    #e1e1e1;
+    position: fixed;
+    border-left: 1px solid
+    #e1e1e1;
+    z-index: 3;
+    background-color:
+    white;
+    width: calc(100% - 12rem);
+  }
